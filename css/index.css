@@ -22,6 +22,7 @@ time, mark, audio, video {
 	font-size: 100%;
 	font: inherit;
 	vertical-align: baseline;
+    
 }
 /* HTML5 display-role reset for older browsers */
 article, aside, details, figcaption, figure, 
@@ -30,9 +31,27 @@ footer, header, hgroup, menu, nav, section {
 }
 body {
 	line-height: 1;
+    background: white;
+}
+ul{
+    width: 100%;
+    margin: 0 0 0 250px;
+    width: 60%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 2%;
+    font-size: 14px;
+
 }
 ol, ul {
 	list-style: none;
+    width: 60%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 2%;
+    font-size: 14px;
 }
 blockquote, q {
 	quotes: none;
@@ -86,8 +105,10 @@ p {
 }
 
 .middle-content {
+    display: flex;
     margin-bottom: 20px;
     border-bottom: 1px dashed black;
+
 }
 
 .middle-content h2 {
@@ -101,7 +122,7 @@ p {
     justify-content: space-evenly;
 }
 
-.middle-content .boxes .box2 {
+.middle-content .boxes  {
     width: 12.5%;
     height: 100px;
     background: black;
@@ -116,7 +137,10 @@ p {
 
 
 
+.working {
+    justify-content: right;
 
+}
 
 
 
