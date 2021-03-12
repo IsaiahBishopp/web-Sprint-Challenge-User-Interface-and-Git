@@ -42,6 +42,7 @@ ul{
     align-items: center;
     padding: 20px 2%;
     font-size: 14px;
+    color: black;
 
 }
 ol, ul {
@@ -120,9 +121,12 @@ p {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
+
+
 }
 
-.middle-content .boxes  {
+
+.middle-content .boxes .box {
     width: 12.5%;
     height: 100px;
     background: black;
